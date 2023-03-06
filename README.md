@@ -58,6 +58,9 @@ The first model we will run without tuning any hyperparameters within the model 
 We can see from the above plots and diagrams for each model how well they performed with the training (and validation) sets. We see that model-one seemed to steady out a bit more than our more complex model (model-two). We see in both models that the accuracy and loss does not steady. This could pertain towards the fact that we trained with very few epochs (5) and a simple CNN model with so many pictures may need more "time" to train to converge.
 After submitting both trained models separately on the test set, we can see (below) how each model performed. As expected, we see that model-one (the model without hyperparameters) performed worse
 
+<img width="1401" alt="Screen Shot 2023-03-05 at 6 53 04 PM" src="https://user-images.githubusercontent.com/81925727/223009417-6844ccd4-f216-447c-aa30-c058cf341e1a.png">
+
+
 ## Conclusion:
 
 Our first model was simple with no hyperparameter tuning. The second model incorporated much more tuning and a few extra layers. Both models trained for 5 epochs and performed resonably well given that they both are fairly simple. As expected, the second model did better than the first. We can see that hyperparameter tuning does indeed contribute to the model performance and can improve the model if done correctly.
